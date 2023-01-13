@@ -111,15 +111,7 @@
      * color-error(#ffd1d2), color-success(#c8e675), 
      * color-info(#d7ecfb), color-notice(#fff099)
      */
-    --color-error                  : hsla(359, 100%, 91%, 1);
-    --color-success                : hsla(76, 69%, 68%, 1);
-    --color-info                   : hsla(205, 82%, 91%, 1);
-    --color-notice                 : hsla(51, 100%, 80%, 1);
-    --color-error-content          : hsla(359, 50%, 50%, 1);
-    --color-success-content        : hsla(76, 29%, 28%, 1);
-    --color-info-content           : hsla(205, 32%, 31%, 1);
-    --color-notice-content         : hsla(51, 30%, 30%, 1);
-
+    
     /* shades 
      * generated using 
      * Tint & Shade Generator 
@@ -149,7 +141,7 @@
 
     /* text
      */
-    --color-text                   : var(--color-gray-17);
+    --color-text                   : var(--color-white);
     --color-text-dark              : var(--color-gray-19);
     --color-text-light             : var(--color-gray-12);
     --color-placeholder            : var(--color-gray-12);
@@ -171,14 +163,14 @@
 
     /* preloader
      */
-    --color-preloader-bg           : #CFE6E8;
+    --color-preloader-bg           :  #192BC2;
     --color-loader                 : var(--color-text-dark);
     --color-loader-light           : var(--color-1-lighter);
 
     /* others
      */
-    --color-body                   : #CFE6E8;
-    --color-border                 : rgba(0, 0, 0, .08);
+    --color-body                   :  #192BC2;
+    --color-border                 : white;
     --border-radius                : 3px;
 }
 
@@ -324,7 +316,7 @@ main {
 }
 
 h1 {
-    font-size : 2em;
+    font-size : .5 em;
     margin    : 0.67em 0;
 }
 
@@ -1615,7 +1607,7 @@ hr.fancy::before {
     font-weight : 400;
     font-size   : var(--text-lg);
     line-height : 1.8275;
-    color       : var(--color-text-dark);
+    color       : white;
 }
 
 @media screen and (max-width: 900px) {
@@ -1858,7 +1850,11 @@ img,
     flex-flow       : row wrap;
     justify-content : center;
     align-items     : center;
-    background      : var(--color-preloader-bg);
+    background      : var(--color-preloader
+    
+    
+    
+    -bg);
     z-index         : 500;
     height          : 100vh;
     width           : 100%;
@@ -2109,14 +2105,14 @@ input[type="button"] {
     line-height             : calc(var(--btn-height) - 4px);
     padding                 : 0 3.6rem;
     margin                  : 0 0.4rem var(--vspace-0_5) 0;
-    color                   : var(--color-btn-text);
+    color                   : white;
     text-decoration         : none;
     text-align              : center;
     white-space             : nowrap;
     cursor                  : pointer;
     transition              : all .3s;
     border-radius           : var(--border-radius);
-    background-color        : var(--color-btn);
+    background-color        : black;
     border                  : 2px solid var(--color-btn);
     -webkit-font-smoothing  : antialiased;
     -moz-osx-font-smoothing : grayscale;
@@ -2724,14 +2720,14 @@ td:last-child {
 }
 
 .text-huge-title {
-    --text-huge       : 9.4rem;
+    --text-huge       : 8rem;
     --text-multiplier : 1;
     font-family       : var(--font-2);
     font-weight       : 400;
     font-size         : calc(var(--text-huge) * var(--text-multiplier));
     line-height       : 1.0638;
     letter-spacing    : -0.02em;
-    color             : var(--color-text-dark);
+    color             : white;
     margin-top        : 0;
 }
 
@@ -2920,8 +2916,8 @@ img.u-pull-left {
 }
 
 .s-header__branding .site-title {
-    margin  : 0;
-    padding : 0;
+    margin: 0 ;
+    padding-right: 20%; ;
 }
 
 .s-header__branding a {
@@ -2929,7 +2925,7 @@ img.u-pull-left {
     padding : 0;
     outline : 0;
     border  : none;
-    color   : var(--color-text-dark);
+    color   : white;
 }
 
 /* --------------------------------------------------------------------
@@ -2945,7 +2941,7 @@ img.u-pull-left {
     font-size           : 2rem;
     font-weight         : 400;
     line-height         : var(--vspace-1);
-    color               : var(--color-text-dark);
+    color               : white;
     padding             : 0 1.8rem;
     transition-property : color, background-color;
 }
@@ -3013,7 +3009,7 @@ img.u-pull-left {
 
 .s-header__menu-toggle span {
     display          : block;
-    background-color : var(--color-text-dark);
+    background-color : white;
     width            : 28px;
     height           : 2px;
     margin-top       : -1px;
@@ -3232,7 +3228,7 @@ img.u-pull-left {
 }
 
 .s-intro__text-huge {
-    --text-huge-size : 24.6rem;
+    --text-huge-size : 10.6rem;
     font-size        : var(--text-huge-size);
     line-height      : 1;
     letter-spacing   : -0.015em;
@@ -3246,9 +3242,9 @@ img.u-pull-left {
  * -------------------------------------------------------------------- */
 .s-intro__bg {
     aspect-ratio        : 1/1;
-    width               : 100%;
+    width               : 30%;
     background-color    : var(--color-gray-4);
-    background-image    : url(../images/intro-bg.jpg);
+    background-image    : url(#);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -3276,7 +3272,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1400px) {
     .s-intro__text-huge {
-        --text-huge-size : 22rem;
+        --text-huge-size : 5rem;
     }
 }
 
@@ -3375,7 +3371,7 @@ img.u-pull-left {
     display          : block;
     height           : 1px;
     width            : 3.2rem;
-    background-color : var(--color-border);
+    background-color : white;
     position         : absolute;
     top              : 50%;
     left             : calc(var(--timeline-vertical-border-pos) + 1px);
@@ -3417,6 +3413,7 @@ img.u-pull-left {
     line-height   : 1.0966;
     margin-top    : 0;
     margin-bottom : var(--vspace-0_125);
+    color: white;
 }
 
 .timeline__meta {
@@ -3432,7 +3429,7 @@ img.u-pull-left {
     line-height    : var(--vspace-0_75);
     text-transform : uppercase;
     letter-spacing : .15em;
-    color          : var(--color-1-dark);
+    color          : yellow;
     margin-top     : -.2rem;
 }
 
@@ -3441,6 +3438,7 @@ img.u-pull-left {
  * -------------------------------------------------------------------- */
 .s-about__skills {
     padding-top : var(--vspace-3);
+    color: white;
 }
 
 .s-about__skills .text-subtitle::after {
