@@ -6,8 +6,9 @@
     ================================================== -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dr. Zachary J. A. Ramsey</title>
-
+    <title>Dr. Zachary J. A. Ramsay</title>
+ 
+    <link rel="manifest" href="/site.webmanifest">
     <script>
         document.documentElement.classList.remove('no-js');
         document.documentElement.classList.add('js');
@@ -20,11 +21,14 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
 
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"> -->
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
 </head>
 
 
@@ -63,9 +67,10 @@
                     <ul>
                         <li class="current"><a href="#about" class="smoothscroll">About Me</a></li>
                         <li><a href="#timeline" class="smoothscroll">My Publications</a></li>
-                        <li><a href="#colophon" class="smoothscroll">My Passions</a></li>
-                        <li><a href="#colophon" class="smoothscroll">My Interests</a></li>
-                        <li><a href="#works" class="smoothscroll">Upcoming Projects</a></li>
+                        <!-- <li><a href="#passions" class="smoothscroll">My Passions</a></li>
+                        <li><a href="#interests" class="smoothscroll">My Interests</a></li>
+                        <li><a href="#works" class="smoothscroll">Upcoming Projects</a></li> -->
+                        <li><a href="#contact" class="smoothscroll">Contact</a></li>
 
                     </ul>
                 </nav> <!-- end s-header__nav -->
@@ -86,12 +91,11 @@
 
                     <div class="s-intro__text">
                         <h1 class="s-intro__text-huge animate-on-load">
-                            Dr. Zachary J. A. Ramsey
+                            Dr. Zachary J. A. Ramsay
                         </h1>
                     </div>
 
                     <div class="s-intro__bg"></div> 
-
                 </div>
             </div>
 
@@ -115,17 +119,17 @@
                 </div>
             </div> <!-- end s-about__intro -->
 
-            <div class="s-about__block s-about__career">
+            <div  class="s-about__block s-about__career">
 
-                <div class="row s-about__career-header">
-                    <div class="column lg-12">
+                <div  class="row s-about__career-header">
+                    <div  class="column lg-12">
     
-                        <p class="text-huge-title">
+                        <p id="timeline" class="text-huge-title">
 My Publications                        </p>
                     </div>
                 </div>
 
-                <div id="#timeline" class="row s-about__timeline" data-animate-block>
+                <div class="row s-about__timeline" data-animate-block>
                     <div class="column lg-6 stack-on-900 s-about__timeline-section" data-animate-el>
     
                         
@@ -135,7 +139,7 @@ My Publications                        </p>
                             <div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
-                                    <h4 class="timeline__title">Sage Journals                                     
+                                    <h4 class="timeline__title">The clinical assessment of foreign body ingestions: Experience in a developing country                                    
                                     </h4> 
 
                                 </div>
@@ -143,8 +147,8 @@ My Publications                        </p>
                                    
                                   </div>
                                 <div class="timeline__desc">
-                                    <p>The clinical assessment of foreign body ingestions: Experience in a developing country</p>
-                                <button a href="https://journals.sagepub.com/doi/10.1177/00494755221147355">Visit</button>
+                                    <p>Sage Journals </p>
+                                <a href="https://journals.sagepub.com/doi/10.1177/00494755221147355"><button>VISIT</button></a>
                                 </div>
                             </div>
     
@@ -157,7 +161,7 @@ My Publications                        </p>
                                 </div>
                                 <div class="timeline__desc">
                                     <p>Numb chin syndrome in sickle cell disease: a case series of Jamaican patients</p>
-                                    <button a href="https://pubmed.ncbi.nlm.nih.gov/33479847/">Visit</button>
+                                    <a href="https://pubmed.ncbi.nlm.nih.gov/33479847/" target="_blank"><button>Visit</button></a>
 
                                 </div>
                             </div>
@@ -169,7 +173,7 @@ My Publications                        </p>
                                 </div>
                                 <div class="timeline__desc">
                                     <p> Health-related quality of life and neuropathic pain in sickle cell disease in Jamaica</p>
-                                    <button a href="https://pubmed.ncbi.nlm.nih.gov/33867318/">Visit</button>
+                                    <a href="_https://pubmed.ncbi.nlm.nih.gov/33867318/" target="_blank"><button>Visit</button></a>
 
                                 </div>
                             </div>
@@ -190,8 +194,8 @@ My Publications                        </p>
                                     <h4 class="timeline__title">The Clinical Journal of Pain</h4>
                                 </div>
                                 <div class="timeline__desc">
-                                    <p>Sickle Cell Disease and Pain: Is it all Vaso-occlusive Crises?Sickle Cell Disease and Pain: Is it all Vaso-occlusive Crises?</p>
-                                    <button a href="https://pubmed.ncbi.nlm.nih.gov/34008506/">Visit</button>
+                                    <p>Sickle Cell Disease and Pain: Is it all Vaso-occlusive Crises?</p>
+                                    <button a href="https://pubmed.ncbi.nlm.nih.gov/34008506/" target="_blank">Visit</button>
 
                                 </div>
                             </div>
@@ -245,16 +249,16 @@ My Publications                        </p>
      
                         </div> <!-- end timeline -->
                         
-                    </div> <!-- end s-about__timeline-section -->
+                    <!-- </div> <!-- end s-about__timeline-section -->
     
-                </div> <!-- end about__timeline -->
+                </div> <!-- end about__timeline 
 
-                <div class="row s-about__skills" data-animate-block>
+                <div id="passions" class="row s-about__skills" data-animate-block>
                     <div class="column lg-12" data-animate-el>
     
                         <!-- <h2 class="text-subtitle">
                             Skills & Expertise
-                        </h2> -->
+                        </h2> 
                         <div class="column lg-12">
     
                             <p class="text-huge-title">
@@ -297,9 +301,9 @@ My Publications                        </p>
                         </ul> -->
     
                     </div>
-                </div> <!-- end s-about__skills -->
+                </div> <!-- end s-about__skills 
 
-                <div class="row s-about__clients" data-animate-block>
+                <div id="interests" class="row s-about__clients" data-animate-block>
                     <div class="column lg-12" data-animate-el>
                         <div class="column lg-12">
     
@@ -351,7 +355,7 @@ My Publications                        </p>
 
 
         <!-- # works
-        ================================================== -->
+        ================================================== 
         <section id="works" class="s-works">
 
             <div class="row">
@@ -384,7 +388,7 @@ My Publications                        </p>
                             <p>placeholder</p>
                         </div>
                     </div>
-                </div> <!-- end column -->
+                </div> <!-- end column 
                 <div class="column" data-animate-el>
                     <div class="folio-item">
                         <div class="folio-item__thumb">
@@ -404,7 +408,7 @@ My Publications                        </p>
                             <p>placeholder</p>
                         </div>
                     </div>
-                </div> <!-- end column -->
+                </div> <!-- end column 
                 <div class="column" data-animate-el>
                     <div class="folio-item">
                         <div class="folio-item__thumb">
@@ -424,7 +428,7 @@ My Publications                        </p>
                             <p>placeholder</p>
                         </div>
                     </div>
-                </div> <!-- end column -->
+                </div>  end column 
                 <div class="column" data-animate-el>
                     <div class="folio-item">
                         <div class="folio-item__thumb">
@@ -446,7 +450,7 @@ My Publications                        </p>
                             <p>placeholder</p>
                         </div>
                     </div>
-                </div> <!-- end column -->
+                </div> <!-- end column 
                 <div class="column" data-animate-el>
                     <div class="folio-item">
                         <div class="folio-item__thumb">
@@ -465,8 +469,8 @@ My Publications                        </p>
                         <div class="folio-item__caption">
                             <p>placeholder</p>
                         </div>
-                    </div>
-                </div> <!-- end column -->
+                    </div> -->
+                </div> <!-- end column 
                 <div class="column" data-animate-el>
                     <div class="folio-item">
                         <div class="folio-item__thumb">
@@ -578,7 +582,7 @@ My Publications                        </p>
 
         <!-- # site footer
         ================================================== -->
-        <footer id="colophon" class="s-footer">
+        <footer id="contact" class="s-footer">
 
             <div class="row s-footer__contact-header">
                 <div class="column lg-12">
@@ -618,25 +622,23 @@ My Publications                        </p>
                         </ul>
                     </div> -->
 
-                    <!-- <div class="s-footer__social">
+                    <div class="s-footer__social">
                         <h2 class="text-subtitle">
                             Connect
                         </h2>
                         <ul class="link-list">
-                            <li><a href="#0">Facebook</a></li>
-                            <li><a href="#0">Twitter</a></li>
-                            <li><a href="#0">Github</a></li>
-                            <li><a href="#0">Dribbble</a></li>
+                            <li><a href="#0">Instagram</a></li>
+                            <li><a href="#0">Linked In <i class="fa-brands fa-linkedin"></i></a></li>
                         </ul>
-                    </div> -->
+                    </div> 
                     
                 </div>
             </div> <!-- end s-footer__contact-content -->
 
             <div class="row s-footer__bottom">
                 <div class="column ss-copyright">
-                    <span>© Copyright Dr. Zachary J. A. Ramsey 2023</span> 
-                    <span>Design by <a href="https://toniwilliamsdev.com/">Toni Williams Web Development</a></span>
+                    <span>© Copyright Dr. Zachary J. A. Ramsay 2023</span> 
+                     <span><a href="/toniwilliamsdev.com">Design by Toni Williams Web Development</a></span> 
                 </div>
 
                 <div class="ss-go-top">
